@@ -1,0 +1,213 @@
+{"intents": [
+  {"tag": "greeting",
+   "patterns": ["Hi", "Hey", "Is anyone there?","Hi there", "Hello", "Hey there", "Howdy", "Hola", "Bonjour", "Konnichiwa", "Guten tag", "Ola"],
+   "responses": ["Hello there. Tell me how are you feeling today?", "Hi there. What brings you here today?", "Hi there. How are you feeling today?", "Great to see you. How do you feel currently?", "Hello there. Glad to see you're back. What's going on in your world right now?"]
+  },
+  {"tag": "morning",
+      "patterns": ["Good morning"],
+      "responses": ["Good morning. I hope you had a good night's sleep. How are you feeling today? "]
+  },
+  {"tag": "afternoon",
+      "patterns": ["Good afternoon"],
+      "responses": ["Good afternoon. How is your day going?"]
+  },
+  {"tag": "evening",
+      "patterns": ["Good evening"],
+      "responses": ["Good evening. How has your day been?"]
+  },
+  {"tag": "night",
+      "patterns": ["Good night"],
+      "responses": ["Good night. Get some proper sleep", "Good night. Sweet dreams."]
+  },
+  {"tag": "goodbye",
+   "patterns": ["Bye", "See you later", "Goodbye", "Au revoir", "Sayonara", "ok bye", "Bye then", "Fare thee well"],
+   "responses": ["See you later.", "Have a nice day.", "Bye! Come back again.", "I'll see you soon."]
+  },
+  {"tag": "thanks",
+   "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Than you very much"],
+   "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+  },
+  {"tag": "no-response",
+      "patterns": [""],
+      "responses": ["Sorry, I didn't understand you.", "Please go on.", "Not sure I understand that.", "Please don't hesitate to talk to me."]
+  },
+  {"tag": "neutral-response",
+      "patterns": ["nothing much"],
+      "responses": ["Oh I see. Do you want to talk about something?"]
+  },
+  {
+    "tag": "Gonnorhea",
+    "patterns": [
+      "What are the symptoms of gonnorhea?",
+      "Is gonnorhea it treatable?",
+      "What are the medications of gonnorhea?",
+      "How many stages are there in gonnorhea?"
+    ],
+    "responses": [
+      "Symptoms include painful urination and abnormal discharge from the penis or vagina. Men may experience testicular pain andwomen may experience pain in the lower stomach In some cases gonnorhoea has no symptoms ",
+      "Yes it is treatable and the treatment is with antibiotics",
+      "The medications are Antibiotics which Stops the growth or kills bacteria",
+      "There are two stages "
+    ]
+  },
+  {
+    "tag": "Syphillis",
+    "patterns": [
+      "What are the symptoms of Syphillis?",
+      "Is Syphillis it treatable?",
+      "What are the medications of Syphillis?",
+      "How many stages are there in Syphillis?"
+    ],
+    "responses": [
+      "Symptoms include painless sore on the genitals, rectum or mouth. After the initial sore heals, the second stage is characterised by a rash.Then, there are no symptoms until the final stage which may occur years later.This final stage can result in damage to the brain, nerves, eyes or heart ",
+      "Yes it is treatable and the treatment is with penicillin. Sexual partners should also be treated",
+      "The medications are penicillin and Antibiotics which Stops the growth or kills bacteria",
+      "There are three stages, if symptoms persist seek medical assistance"
+
+    ]
+  },
+  {
+    "tag": "Chlamydia",
+    "patterns": [
+      "What are the symptoms of Chlamydia?",
+      "Is Chlamydia it treatable?",
+      "What are the medications of Chlamydia?",
+      "How many stages are there in Chlamydia?"
+    ],
+    "responses": [
+      "The symptoms are pain when urinating.Unusual vaginal discharge.Pain in the tummy or pelvis.Pain during sex.Bleeding after sex.Bleeding between periods",
+      "Yes it is treatable and the treatment is with Antibiotic therapy for the affected patient and the sexual partners of patients is recommended.Screening for other common sexually transmitted infections should also be performed.",
+      "The medications are Antibiotics which Stops the growth or kills bacteria",
+      "There are three stages, if symptoms persist seek medical assistance"
+
+    ]
+
+  },
+  {
+    "tag": "STI'S",
+    "patterns":[
+      "What are STI'S?",
+      "How can one prevent an STI?",
+      "Where can one seek STI medication?"
+      
+    ],
+    "responses":[
+      "This is an infection transmitted through sexual contact, caused by bacteria,viruses or parasites.",
+      "1)Abstinence; this is the most reliable. 2)Vaccination; are always safe and advisable. 3)Reduce the number of sex partners. 4)Mutual monogamy;by being sexually active with one person. 5)Use condoms.",
+      "http://www.lafemmehealthcare.com/"
+    ]
+  },
+  {"tag": "help",
+  "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need support", "I need help", "Support me please"],
+  "responses": ["Sure. Tell me how can i assist you", "Tell me your problem so that i can assist you", "Yes, sure. How can I help you?"]
+  },
+  {
+    "tag": "HIV",
+    "patterns":[
+      "What is HIV?",
+      "How can one prevent HIV?",
+      "Where can one seek STI medication?",
+      "Does HIV have a cure?"
+      
+    ],
+    "responses":[
+      "It's a virus that attacks the body's immune system.",
+      "1)Abstinence; this is the most reliable.  2)Reduce the number of sex partners. 3)Mutual monogamy;by being sexually active with one person. 4)Use condoms.",
+      "http://www.lafemmehealthcare.com/",
+      "HIV doesnt have a cure but one can be given proper medication"
+    ]
+  },
+    {
+      "tag": "STI Symptoms",
+      "patterns": [
+        "What are the symptoms of gonorrhea?",
+        "How can I tell if I have chlamydia?",
+        "What does syphilis look like?",
+        "What are the signs of genital herpes?",
+        "Can you get HIV from oral sex?",
+        "What are the symptoms of trichomoniasis?",
+        "How can I tell if I have genital warts?",
+        "What are the symptoms of hepatitis B?",
+        "How can I tell if I have pubic lice?",
+        "What are the signs of a yeast infection?"
+      ],
+      "responses": [
+        "Symptoms of gonorrhea can include a burning sensation when urinating,discharge from the penis or vagina, and pain or swelling in the testicles or ovaries. Symptoms of chlamydia can include discharge from the penis or vagina, pain or burning during urination, and pain or bleeding during sex. Syphilis can cause a sore or rash on or near the genitals, anus, or mouth, as well as flu-like symptoms. Genital herpes can cause painful blisters or sores on or around the genitals or mouth. HIV does not always cause symptoms, but some people may experience flu-like symptoms within a few weeks of infection. Symptoms of trichomoniasis can include itching, burning, and discharge from the vagina or penis. Genital warts can cause small, flesh-colored bumps or clusters of bumps on or around the genitals or anus. Symptoms of hepatitis B can include fatigue, nausea, abdominal pain, and yellowing of the skin and eyes. Symptoms of pubic lice can include intense itching in the genital area. Yeast infections can cause itching, burning, and discharge from the vagina."
+      ]
+    },
+    {
+      "tag": "STI Prevention",
+      "patterns": [
+        "What are some ways to prevent STIs?",
+        "How can I reduce my risk of getting an STI?",
+        "Is it safe to have sex with a condom?",
+        "What is PrEP and how does it work?",
+        "What is PEP and when should I use it?",
+        "What is the best way to protect against HIV?",
+        "Can I still get an STI if I use a condom?",
+        "How can I talk to my partner about STI prevention?",
+        "What are some common misconceptions about STI prevention?"
+      ],
+      "responses": [
+        "Ways to prevent STIs include using condoms correctly and consistently, getting vaccinated against certain STIs like HPV and hepatitis B, getting tested regularly for STIs, limiting the number of sexual partners you have, and avoiding sex with someone who has symptoms of an STI. PrEP is a medication that can help prevent HIV infection when taken daily. PEP is a medication that can help prevent HIV infection when taken within 72 hours after a possible exposure. Using condoms correctly and consistently is one of the best ways to protect against STIs, but it is not 100% effective. Talking to your partner about STI prevention can be difficult, but it is important to be honest and open about your sexual health. Some common misconceptions about STI prevention include that you can only get an STI from vaginal or anal sex, that condoms are not effective, and that you can tell if someone has an STI just by looking at them."
+      ]
+    },
+    {
+      "tag": "STI Prevention",
+      "patterns": [
+        "What are some ways to prevent STIs?",
+        "How can I reduce my risk of getting an STI?",
+        "Is it safe to have sex with a condom?",
+        "What is PrEP and how does it work?",
+        "What is PEP and when should I use it?",
+        "What is the best way to protect against HIV?",
+        "Can I still get an STI if I use a condom?",
+        "How can I talk to my partner about STI prevention?",
+        "What are some common misconceptions about STI prevention?"
+      ],
+      "responses": [
+        "Some ways to prevent STIs include practicing safe sex by using condoms, getting vaccinated for certain STIs like HPV and hepatitis B, getting tested regularly and sharing your results with partners, limiting your number of sexual partners, and avoiding high-risk sexual activities like unprotected anal sex. PrEP is a medication that can reduce the risk of getting HIV for people who are at high risk. PEP is a medication that can be taken after exposure to HIV to prevent infection. Condoms can greatly reduce the risk of getting an STI, but they are not 100% effective. It's important to talk to your partner about STI prevention and to be honest about your sexual history and any STI risks. Some common misconceptions about STI prevention include that only people who are promiscuous or have unprotected sex get STIs, that you can't get an STI from oral sex, and that you can't get an STI if you use a condom."
+      ]
+    },
+    {
+      "tag": "STI Testing Frequency",
+      "patterns": [
+        "How often should I get tested for STIs?",
+        "When should I get tested for STIs?",
+        "Is it necessary to get tested for STIs even if I don't have any symptoms?",
+        "How often should I get tested if I have multiple sexual partners?",
+        "Should I get tested if I have unprotected sex?"
+      ],
+      "responses": [
+        "It is recommended that sexually active individuals get tested for STIs at least once a year, even if they don't have any symptoms. However, the frequency of testing may vary based on individual risk factors such as number of sexual partners, use of condoms, and history of STIs. If you have multiple sexual partners or engage in high-risk sexual behaviors, it is recommended to get tested every 3-6 months. If you have had unprotected sex, it is recommended to get tested as soon as possible."
+      ]
+    },
+    {
+      "tag": "STI Testing Process",
+      "patterns": [
+        "What happens during an STI test?",
+        "What should I expect during an STI test?",
+        "What types of tests are done during an STI test?",
+        "Do I need to prepare for an STI test?",
+        "How long does it take to get the results of an STI test?"
+      ],
+      "responses": [
+        "During an STI test, a healthcare provider will typically ask about your sexual history and any symptoms you may be experiencing. They may perform a physical exam and collect samples of blood, urine, or genital secretions for laboratory testing. The types of tests performed may vary based on individual risk factors and symptoms, but can include tests for gonorrhea, chlamydia, syphilis, HIV, and hepatitis. It is generally not necessary to prepare for an STI test, but you may be asked to avoid urinating for 1-2 hours before providing a urine sample. The time it takes to get test results can vary depending on the type of test and the laboratory used, but most results are available within a few days to a week."
+      ]
+    },
+    {
+      "tag": "STI Testing Resources",
+      "patterns": [
+        "Where can I get tested for STIs?",
+        "Are there free STI testing services?",
+        "How much does STI testing cost?",
+        "Do I need insurance to get tested for STIs?",
+        "Can I get tested for STIs anonymously?"
+      ],
+      "responses": [
+        "STI testing is available at many healthcare clinics, including Planned Parenthood, community health centers, and private doctors' offices. There are also free and low-cost STI testing services available, such as those offered by public health clinics and community organizations. The cost of STI testing can vary, but many clinics offer sliding-scale fees based on income or accept health insurance. It is not necessary to have insurance to get tested for STIs, and many clinics offer free or reduced-cost testing for individuals without insurance. Anonymous STI testing is also available at some clinics and community organizations."
+      ]
+    }
+
+  ]
+}
