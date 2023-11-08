@@ -14,14 +14,14 @@
                 <h2><img class="logo" src="images/icon.jpg" alt="LOGO!"></h2>
             </div>
             <div class="navig">
-                <ul>
-                    <li><a href="home.html">HOME</a></li>
-                    <li><a href="About.html">ABOUT</a></li>
-                    <li><a href="Services.html">SERVICES</a></li>
-                    <li><a href="Gallery.html">GALLERY</a></li>
-                    <li><a href="Contact.html">CONTACT</a></li>
-                    <li><a href="chat.html">CHAT</a></li>
-                </ul>
+              <ul>
+                <li><a href="home.php">HOME</a></li>
+                <li><a href="About.php">ABOUT</a></li>
+                <li><a href="Services.php">SERVICES</a></li>
+                <li><a href="Gallery.php">GALLERY</a></li>
+                <li><a href="Contact.php">CONTACT</a></li>
+                <li><a href="http://127.0.0.1:5000/">CHAT</a></li>
+            </ul>
             </div>
             <div class="search">
                 <input class="srch" type="search" name="" placeholder="Type text here">

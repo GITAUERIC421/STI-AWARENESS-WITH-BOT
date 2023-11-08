@@ -2,7 +2,7 @@
 from flask import Flask, render_template, request
 import random
 import json
-from keras.models import load_model
+from keras.models import model
 import webbrowser
 import numpy as np
 import pickle
@@ -10,7 +10,7 @@ from nltk.stem import WordNetLemmatizer
 import nltk
 nltk.download('popular')
 lemmatizer = WordNetLemmatizer()
-model = load_model('model.counsellor')
+model = model('model.counsellor')
 intents = json.loads(open('intents.json', "r+", encoding="utf-8").read())
 words = pickle.load(open('texts.pkl', 'rb'))
 classes = pickle.load(open('labels.pkl', 'rb'))
